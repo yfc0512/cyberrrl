@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px cyan;
+}
+
+h1 {
+    color: cyan;
+    text-shadow: 2px 2px 5px blue;
+}
+
+.content {
+    text-align: left;
+}
+
+.highlight {
+    color: yellow;
+}
+
+.galaxy-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #000;
+    background: linear-gradient(90deg, #FFD700, #FF4500);
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 0 15px #FFD700;
+    transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,91 @@
+/* พื้นหลังแนว Galaxy */
+body.galaxy-bg {
+    background: url('img/1a17113357e09775f3855f982be25a50.gif') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    color: #FFFFFF;
+}
+
+/* การใส่ overlay */
+.galaxy-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* หัวข้อ */
+.cosmic-title {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 0px 0px 15px #00FFFF, 0px 0px 30px #1E90FF;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #FFD700;
+    margin-bottom: 30px;
+}
+
+/* กล่องเนื้อหา */
+.cosmic-box {
+    background: rgba(30, 30, 30, 0.9);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 25px #1E90FF;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* ลิสต์ */
+.galaxy-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.galaxy-list li {
+    margin: 10px 0;
+    padding-left: 20px;
+    position: relative;
+    color: #00FFFF;
+}
+
+.galaxy-list li::before {
+    content: '★';
+    position: absolute;
+    left: 0;
+    color: #FFD700;
+}
+
+/* ข้อความตัวอย่าง */
+.cosmic-quote {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-left: 5px solid #FFD700;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+/* ปุ่ม */
+.galaxy-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #000;
+    background: linear-gradient(90deg, #FFD700, #FF4500);
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 0 15px #FFD700;
+    transition: all 0.3s ease-in-out;
+}
+
+.galaxy-button:hover {
+    background: linear-gradient(90deg, #FF4500, #FFD700);
+    box-shadow: 0 0 30px #FFD700;
+}
